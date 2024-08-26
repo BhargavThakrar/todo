@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@lib/database/(.*)": "<rootDir>/../libs/database/src/$1",
+    "@lib/database": "<rootDir>/../libs/database/src",
+    "@lib/shared-config/(.*)": "<rootDir>/../libs/shared-config/src/$1",
+    "@lib/shared-config": "<rootDir>/../libs/shared-config/src"
+  }
+}
